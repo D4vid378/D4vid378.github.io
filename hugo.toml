@@ -3,25 +3,25 @@ languageCode = 'it-it'
 title = 'CtrlAltCancDav'
 theme = 'PaperMod'
 
-[params.homeInfoParams]
-    Title = "Ciao, sono Davide 👋"
-    Content = "Benvenuti nel mio spazio digitale dedicato al mondo informatico."
-
-[params.profileMode]
-    enabled = true
+[params]
+    env = "production"
     title = "CtrlAltCancDav"
-    subtitle = "Appassionato di questioni tech"
-    imageUrl = "https://github.com/D4vid378.png" # Usa la tua foto profilo GitHub
-    imageTitle = "Davide"
-    imageWidth = 150
-    imageHeight = 150
+    description = "Il mio blog tech"
+    author = "Davide"
 
+    # Questo attiva la modalità profilo (foto + bio)
+    [params.profileMode]
+        enabled = true
+        title = "Davide"
+        subtitle = "Benvenuti nel mio blog"
+        imageUrl = "https://github.com/D4vid378.png"
+        imageWidth = 120
+        imageHeight = 120
+
+    # Questo aggiunge le icone social
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/D4vid378"
-    [[params.socialIcons]]
-        name = "linkedin"
-        url = "https://linkedin.com/in/tuo-profilo"
 
         [[menu.main]]
     identifier = "posts"
