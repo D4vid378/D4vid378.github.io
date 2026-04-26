@@ -2,3 +2,35 @@ baseURL = "https://D4vid378.github.io/"
 languageCode = 'it-it'
 title = 'CtrlAltCancDav'
 theme = 'PaperMod'
+
+[params.homeInfoParams]
+    Title = "Ciao, sono Davide 👋"
+    Content = "Benvenuti nel mio spazio digitale dedicato al mondo informatico."
+
+[params.profileMode]
+    enabled = true
+    title = "CtrlAltCancDav"
+    subtitle = "Cybersecurity Enthusiast | Tech Blogger"
+    imageUrl = "https://github.com/D4vid378.png" # Usa la tua foto profilo GitHub
+    imageTitle = "Davide"
+    imageWidth = 150
+    imageHeight = 150
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/D4vid378"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/tuo-profilo"
+
+        [[menu.main]]
+    identifier = "posts"
+    name = "Articoli"
+    url = "/posts/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "tags"
+    name = "Argomenti"
+    url = "/tags/"
+    weight = 20
