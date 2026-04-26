@@ -4,26 +4,28 @@ title = 'CtrlAltCancDav'
 theme = 'PaperMod'
 
 [params]
+    # Qui iniziano i parametri personalizzati
     env = "production"
-    title = "CtrlAltCancDav"
     description = "Il mio blog tech"
     author = "Davide"
 
-    # Questo attiva la modalità profilo (foto + bio)
+    [params.homeInfoParams]
+        Title = "Ciao, sono Davide 👋"
+        Content = "Benvenuti nel mio spazio digitale"
+
     [params.profileMode]
         enabled = true
-        title = "Davide"
-        subtitle = "Benvenuti nel mio blog"
+        title = "CtrlAltCancDav"
+        subtitle = "Tech Blogger"
         imageUrl = "https://github.com/D4vid378.png"
-        imageWidth = 120
-        imageHeight = 120
+        imageWidth = 150
+        imageHeight = 150
 
-    # Questo aggiunge le icone social
-    [[params.socialIcons]]
-        name = "github"
-        url = "https://github.com/D4vid378"
+        [[params.socialIcons]]
+            name = "github"
+            url = "https://github.com/D4vid378"
 
-        [[menu.main]]
+            [[menu.main]]
     identifier = "posts"
     name = "Articoli"
     url = "/posts/"
