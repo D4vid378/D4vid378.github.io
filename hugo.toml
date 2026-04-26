@@ -1,0 +1,4 @@
+baseURL = 'https://tuousername.github.io/'
+languageCode = 'it-it'
+title = 'CtrlAltCancDav'
+theme = 'PaperMod'
