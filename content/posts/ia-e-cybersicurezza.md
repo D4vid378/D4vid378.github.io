@@ -12,8 +12,7 @@ cover:
 
 *Questo è un post di prova generato con l'IA per testare le funzionalità del blog.*
 
-L'integrazione dell'Intelligenza Artificiale nel mondo della sicurezza informatica è una "corsa agli armamenti" digitale...
-L'integrazione dell'Intelligenza Artificiale nel mondo della sicurezza informatica è una "corsa agli armamenti" digitale.
+L'integrazione dell'Intelligenza Artificiale nel mondo della sicurezza informatica è una "corsa agli armamenti" digitale. 
 
 ## Il lato positivo: La Difesa Predittiva
 L'IA permette di analizzare miliardi di dati in tempo reale per scovare anomalie che un occhio umano non vedrebbe mai. 
