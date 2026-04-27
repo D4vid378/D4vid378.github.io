@@ -4,28 +4,25 @@ title = 'CtrlAltCancDav'
 theme = 'PaperMod'
 
 [params]
-    # Qui iniziano i parametri personalizzati
     env = "production"
-    description = "Il mio blog tech"
+    title = "CtrlAltCancDav"
+    description = "Il mio blog di prova"
     author = "Davide"
-
-    [params.homeInfoParams]
-        Title = "Ciao, sono Davide 👋"
-        Content = "Benvenuti nel mio spazio digitale"
 
     [params.profileMode]
         enabled = true
-        title = "CtrlAltCancDav"
-        subtitle = "Tech Blogger"
-        imageUrl = "https://github.com/D4vid378.png"
-        imageWidth = 150
-        imageHeight = 150
+        title = "Davide"
+        subtitle = "Uno spazio per gli argomenti tech 🛡️"
+        imageUrl = "https://github.com/D4vid378.png" 
+        imageWidth = 120
+        imageHeight = 120
+        imageTitle = "Davide"
 
-        [[params.socialIcons]]
-            name = "github"
-            url = "https://github.com/D4vid378"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/D4vid378"
 
-            [[menu.main]]
+        [[menu.main]]
     identifier = "posts"
     name = "Articoli"
     url = "/posts/"
